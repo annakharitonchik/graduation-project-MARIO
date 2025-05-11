@@ -36,33 +36,33 @@ main {
 }
 
 .grass-small {
-  background-image: url(/small-grass.svg);
+  background-image: url(./small-grass.svg);
   background-size: contain;
   width: calc(14.4rem * 6);
   height: 8.7rem;
 }
 .hill-up-1 {
-  background-image: url(/grass-hill-up-1.svg);
+  background-image: url(./grass-hill-up-1.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
   height: 16.5rem;
 }
 .grass-middle {
-  background-image: url(/middle-grass.svg);
+  background-image: url(./middle-grass.svg);
   background-size: contain;
   width: calc(14.4rem * 6);
   height: 16.8rem;
 }
 .hill-down-1 {
-  background-image: url(/grass-hill-down-1.svg);
+  background-image: url(./grass-hill-down-1.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
   height: 16.5rem;
 }
 .bush-large {
-  background-image: url(/large-bush.svg);
+  background-image: url(./large-bush.svg);
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 8rem;
@@ -75,7 +75,7 @@ main {
 }
 
 .bush-small {
-  background-image: url(/small-bush.svg);
+  background-image: url(./small-bush.svg);
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 16.8rem;
@@ -119,7 +119,7 @@ main {
 }
 
 #grass1 {
-  background-image: url(/grass-edge.svg);
+  background-image: url(./grass-edge.svg);
   background-repeat: no-repeat;
   margin-left: 5rem;
   width: 5.4rem;
@@ -137,21 +137,21 @@ main {
 }
 
 .hill-up-2 {
-  background-image: url(/grass-hill-up-2.svg);
+  background-image: url(./grass-hill-up-2.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
   height: 24.6rem;
 }
 .grass-large {
-  background-image: url(/grass-lg.svg);
+  background-image: url(./grass-lg.svg);
   background-size: contain;
   width: calc(14.4rem * 6);
   height: 24.6rem;
   z-index: 10;
 }
 .hill-down-2 {
-  background-image: url(/grass-hill-down-2.svg);
+  background-image: url(./grass-hill-down-2.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
@@ -165,13 +165,13 @@ main {
   flex-direction: column-reverse;
   align-items: center;
   .pipe-middle {
-    background-image: url(pipe-middle.svg);
+    background-image: url(./pipe-middle.svg);
     background-size: contain;
     width: 9.6rem;
     height: 46.8rem;
   }
   .red-piranha {
-    background-image: url(red-piranha-plant.svg);
+    background-image: url(./red-piranha-plant.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 9.6rem;
@@ -180,7 +180,7 @@ main {
   }
 }
 .pipe-horizontal {
-  background-image: url(/horizontal-double.svg);
+  background-image: url(./horizontal-double.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 25.8rem;
@@ -202,7 +202,7 @@ main {
   align-items: flex-end;
 }
 .pipe-vertical-bottom {
-  background-image: url(/bottom.svg);
+  background-image: url(./bottom.svg);
   background-size: contain;
   width: 9rem;
   height: 100%;
@@ -213,7 +213,7 @@ main {
   margin-left: 0;
 }
 .pipe-horizontal-bottom {
-  background-image: url(/bottom-1.svg);
+  background-image: url(./bottom-1.svg);
   background-size: contain;
   width: 117.3rem;
   height: 9.6rem;
@@ -227,7 +227,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/seaweed.svg);
+  background-image: url(./seaweed.svg);
   background-repeat: no-repeat;
   background-size: (4.8rem, 24rem);
   background-position: bottom 10.6rem left 85rem;
@@ -237,21 +237,21 @@ main {
   align-items: flex-end;
 }
 .spikes {
-  background-image: url(/spike-single.svg);
+  background-image: url(./spike-single.svg);
   background-size: contain;
   background-repeat: repeat-x;
   width: 60.7rem;
   height: 5rem;
 }
 .bottom-pipe {
-  background-image: url(/bottom-pipe.svg);
+  background-image: url(./bottom-pipe.svg);
   background-size: contain;
   width: 9.6rem;
   height: 14.4rem;
 }
 
 .left-block {
-  background-image: url(/left-seafloor.svg);
+  background-image: url(./left-seafloor.svg);
   background-size: contain;
   width: 2.1rem;
   height: 10.8rem;
@@ -261,7 +261,7 @@ main {
   display: flex;
   flex-direction: column;
   #block {
-    background-image: url(/center-seafloor.svg);
+    background-image: url(./center-seafloor.svg);
     background-size: contain;
     width: 69.1rem;
     height: 10.8rem;
@@ -279,7 +279,7 @@ main {
   }
 }
 .right-block {
-  background-image: url(/right-seafloor.svg);
+  background-image: url(./right-seafloor.svg);
   background-size: contain;
   width: 2.1rem;
   height: 10.8rem;
@@ -294,7 +294,7 @@ main {
   rotate: 180deg;
 }
 .bottom-pipe-blue {
-  background-image: url(/med-upsidedown.svg);
+  background-image: url(./med-upsidedown.svg);
   background-size: contain;
   width: 9.6rem;
   height: 23.4rem;
@@ -374,7 +374,7 @@ main {
   z-index: 100;
 }
 .cloud {
-  background-image: url(cloud-sm.svg);
+  background-image: url(./cloud-sm.svg);
   width: 9.6rem;
   height: 6.9rem;
   background-size: contain;
@@ -382,7 +382,7 @@ main {
   background-repeat: no-repeat;
 }
 .clouds {
-  background-image: url(cloud-lg.svg);
+  background-image: url(./cloud-lg.svg);
   width: 14.4rem;
   height: 6.9rem;
   background-size: contain;
@@ -416,7 +416,7 @@ main {
   margin-bottom: 58.5rem;
   margin-left: 50rem;
   .clouds-sm {
-    background-image: url(cloud.svg);
+    background-image: url(./cloud.svg);
     width: 100%;
     height: 4.8rem;
     background-size: (4.8rem, 4.8rem);
@@ -432,7 +432,7 @@ main {
   transform: translate(-0.6rem, 0);
   justify-content: space-between;
   .waves {
-    background-image: url(waves.svg);
+    background-image: url(./waves.svg);
     width: 100%;
     height: 9rem;
     background-size: contain;
@@ -469,14 +469,14 @@ main {
   margin-left: 240rem;
   margin-bottom: 8.7rem;
   .koopa-paratroopa {
-    background-image: url(floating-sm.svg);
+    background-image: url(./floating-sm.svg);
     width: 26.4rem;
     height: 12rem;
     background-size: contain;
     align-self: end;
   }
   .koopa {
-    background-image: url(xs.svg);
+    background-image: url(./xs.svg);
     width: 21.6rem;
     height: 9.6rem;
     background-size: contain;
@@ -511,21 +511,21 @@ main {
 
 .goomba {
   z-index: 200;
-  background-image: url(md.svg);
+  background-image: url(./md.svg);
   width: 26.4rem;
   height: 14.4rem;
   background-size: contain;
   transform: translate(-5rem, 0);
 }
 .koopa2 {
-  background-image: url(square-xl.svg);
+  background-image: url(./square-xl.svg);
   width: 36rem;
   height: 28.8rem;
   background-size: contain;
   transform: translate(-18rem, 0);
 }
 .bush4 {
-  background-image: url(xl-plain.svg);
+  background-image: url(./xl-plain.svg);
   width: 42.9rem;
   height: 38.4rem;
   margin-bottom: 24.4rem;
