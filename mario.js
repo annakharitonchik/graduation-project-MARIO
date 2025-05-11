@@ -593,9 +593,9 @@ class Mario {
         obj.remove();
       } else if (minCollision === bottomCollision) {
         if (
-          this.ref.src.includes("./middle-mario.svg") ||
-          this.ref.src.includes("./middle-mario-green.svg") ||
-          this.ref.src.includes("./large-mario.svg")
+          this.ref.src.includes("middle-mario.svg") ||
+          this.ref.src.includes("middle-mario-green.svg") ||
+          this.ref.src.includes("large-mario.svg")
         ) {
           obj.remove();
           needVibration = true;
@@ -609,9 +609,9 @@ class Mario {
         }
       } else if (minCollision === leftCollision && count == 0) {
         if (
-          this.ref.src.includes("./middle-mario.svg") ||
-          this.ref.src.includes("./middle-mario-green.svg") ||
-          this.ref.src.includes("./large-mario.svg")
+          this.ref.src.includes("middle-mario.svg") ||
+          this.ref.src.includes("middle-mario-green.svg") ||
+          this.ref.src.includes("large-mario.svg")
         ) {
           obj.remove();
           needVibration = true;
@@ -625,9 +625,9 @@ class Mario {
         }
       } else if (minCollision === rightCollision) {
         if (
-          this.ref.src.includes("./middle-mario.svg") ||
-          this.ref.src.includes("./middle-mario-green.svg") ||
-          this.ref.src.includes("./large-mario.svg")
+          this.ref.src.includes("middle-mario.svg") ||
+          this.ref.src.includes("middle-mario-green.svg") ||
+          this.ref.src.includes("large-mario.svg")
         ) {
           obj.remove();
           needVibration = true;
