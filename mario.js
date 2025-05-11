@@ -60,16 +60,12 @@ function closeModal2(id) {
   restoreInfo();
 }
 
-console.log(localStorage.getItem("player"));
 const MARIO = document.querySelector("#small-mario");
 if (localStorage.getItem("player") == "mario") {
-  MARIO.src = "small-mario.svg";
-  console.log(1);
+  MARIO.src = "./small-mario.svg";
 } else if (localStorage.getItem("player") == "luigi") {
-  MARIO.src = "small-luigi.svg";
-  console.log(2);
+  MARIO.src = "./small-luigi.svg";
 } else {
-  console.log(localStorage.getItem("player"));
 }
 
 let o = 0;
@@ -179,7 +175,7 @@ class movingCoins {
       } else if (minCollision === bottomCollision) {
         this.top += bottomCollision; // objRect.y + objRect.height;
         this.speedY = 0;
-        obj.src = "unbreakable.svg";
+        obj.src = "./unbreakable.svg";
         visible[textured.indexOf(obj)].style.visibility = "visible";
         if (obj.classList.contains("breakable")) {
           obj.style = "display:none";
@@ -375,7 +371,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario.svg";
+          this.ref.src = "./middle-mario.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -387,7 +383,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario-green.svg";
+          this.ref.src = "./middle-mario-green.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -399,7 +395,7 @@ class Mario {
           countMushroom == 1 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "large-mario.svg";
+          this.ref.src = "./large-mario.svg";
           this.ref.style.height = 78 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -2.1;
@@ -426,7 +422,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario.svg";
+          this.ref.src = "./middle-mario.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -438,7 +434,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario-green.svg";
+          this.ref.src = "./middle-mario-green.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -451,7 +447,7 @@ class Mario {
           countMushroom == 1 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "large-mario.svg";
+          this.ref.src = "./large-mario.svg";
           this.ref.style.height = 78 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -2.1;
@@ -479,7 +475,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario.svg";
+          this.ref.src = "./middle-mario.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -491,7 +487,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario-green.svg";
+          this.ref.src = "./middle-mario-green.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -503,7 +499,7 @@ class Mario {
           countMushroom == 1 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "large-mario.svg";
+          this.ref.src = "./large-mario.svg";
           this.ref.style.height = 78 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -2.1;
@@ -530,7 +526,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario.svg";
+          this.ref.src = "./middle-mario.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -543,7 +539,7 @@ class Mario {
           countMushroom == 0 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "middle-mario-green.svg";
+          this.ref.src = "./middle-mario-green.svg";
           this.ref.style.height = 48 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -1.8;
@@ -555,7 +551,7 @@ class Mario {
           countMushroom == 1 &&
           obj.style.visibility == "visible"
         ) {
-          this.ref.src = "large-mario.svg";
+          this.ref.src = "./large-mario.svg";
           this.ref.style.height = 78 / scaleForWidthAndHeight + "rem";
           this.ref.style.width = 48 / scaleForWidthAndHeight + "rem";
           speedOfMario = -2.1;
@@ -597,9 +593,9 @@ class Mario {
         obj.remove();
       } else if (minCollision === bottomCollision) {
         if (
-          this.ref.src.includes("/middle-mario.svg") ||
-          this.ref.src.includes("/middle-mario-green.svg") ||
-          this.ref.src.includes("/large-mario.svg")
+          this.ref.src.includes("./middle-mario.svg") ||
+          this.ref.src.includes("./middle-mario-green.svg") ||
+          this.ref.src.includes("./large-mario.svg")
         ) {
           obj.remove();
           needVibration = true;
@@ -613,9 +609,9 @@ class Mario {
         }
       } else if (minCollision === leftCollision && count == 0) {
         if (
-          this.ref.src.includes("/middle-mario.svg") ||
-          this.ref.src.includes("/middle-mario-green.svg") ||
-          this.ref.src.includes("/large-mario.svg")
+          this.ref.src.includes("./middle-mario.svg") ||
+          this.ref.src.includes("./middle-mario-green.svg") ||
+          this.ref.src.includes("./large-mario.svg")
         ) {
           obj.remove();
           needVibration = true;
@@ -629,9 +625,9 @@ class Mario {
         }
       } else if (minCollision === rightCollision) {
         if (
-          this.ref.src.includes("/middle-mario.svg") ||
-          this.ref.src.includes("/middle-mario-green.svg") ||
-          this.ref.src.includes("/large-mario.svg")
+          this.ref.src.includes("./middle-mario.svg") ||
+          this.ref.src.includes("./middle-mario-green.svg") ||
+          this.ref.src.includes("./large-mario.svg")
         ) {
           obj.remove();
           needVibration = true;
