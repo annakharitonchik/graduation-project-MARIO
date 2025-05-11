@@ -37,14 +37,14 @@ main {
 }
 
 .grass-small {
-  background-image: url(/small-grass.svg);
+  background-image: url(small-grass.svg);
   background-size: contain;
   width: 86.4rem;
   height: 8.7rem;
 }
 
 .hill-up-1 {
-  background-image: url(/grass-hill-up-1.svg);
+  background-image: url(grass-hill-up-1.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
@@ -52,14 +52,14 @@ main {
 }
 
 .grass-middle {
-  background-image: url(/middle-grass.svg);
+  background-image: url(middle-grass.svg);
   background-size: contain;
   width: 86.4rem;
   height: 16.8rem;
 }
 
 .hill-down-1 {
-  background-image: url(/grass-hill-down-1.svg);
+  background-image: url(grass-hill-down-1.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
@@ -67,7 +67,7 @@ main {
 }
 
 .bush-large {
-  background-image: url(/large-bush.svg);
+  background-image: url(large-bush.svg);
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 8rem;
@@ -80,7 +80,7 @@ main {
 }
 
 .bush-small {
-  background-image: url(/small-bush.svg);
+  background-image: url(small-bush.svg);
   background-repeat: no-repeat;
   background-size: contain;
   margin-bottom: 16.8rem;
@@ -127,7 +127,7 @@ main {
 }
 
 #grass1 {
-  background-image: url(/grass-edge.svg);
+  background-image: url(grass-edge.svg);
   background-repeat: no-repeat;
   margin-left: 5rem;
   width: 5.4rem;
@@ -146,7 +146,7 @@ main {
 }
 
 .hill-up-2 {
-  background-image: url(/grass-hill-up-2.svg);
+  background-image: url(grass-hill-up-2.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
@@ -154,7 +154,7 @@ main {
 }
 
 .grass-large {
-  background-image: url(/grass-lg.svg);
+  background-image: url(grass-lg.svg);
   background-size: contain;
   width: 86.4rem;
   height: 24.6rem;
@@ -162,7 +162,7 @@ main {
 }
 
 .hill-down-2 {
-  background-image: url(/grass-hill-down-2.svg);
+  background-image: url(grass-hill-down-2.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 15.3rem;
@@ -193,7 +193,7 @@ main {
 }
 
 .pipe-horizontal {
-  background-image: url(/horizontal-double.svg);
+  background-image: url(horizontal-double.svg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 25.8rem;
@@ -216,7 +216,7 @@ main {
 }
 
 .pipe-vertical-bottom {
-  background-image: url(/bottom.svg);
+  background-image: url(bottom.svg);
   background-size: contain;
   width: 9rem;
   height: 100%;
@@ -228,7 +228,7 @@ main {
 }
 
 .pipe-horizontal-bottom {
-  background-image: url(/bottom-1.svg);
+  background-image: url(bottom-1.svg);
   background-size: contain;
   width: 117.3rem;
   height: 9.6rem;
@@ -242,7 +242,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-image: url(/seaweed.svg);
+  background-image: url(seaweed.svg);
   background-repeat: no-repeat;
   background-size: 4.8rem, 24rem;
   background-position: bottom 10.6rem left 85rem;
@@ -254,7 +254,7 @@ main {
 }
 
 .spikes {
-  background-image: url(/spike-single.svg);
+  background-image: url(spike-single.svg);
   background-size: contain;
   background-repeat: repeat-x;
   width: 60.7rem;
@@ -262,14 +262,14 @@ main {
 }
 
 .bottom-pipe {
-  background-image: url(/bottom-pipe.svg);
+  background-image: url(bottom-pipe.svg);
   background-size: contain;
   width: 9.6rem;
   height: 14.4rem;
 }
 
 .left-block {
-  background-image: url(/left-seafloor.svg);
+  background-image: url(left-seafloor.svg);
   background-size: contain;
   width: 2.1rem;
   height: 10.8rem;
@@ -281,7 +281,7 @@ main {
   flex-direction: column;
 }
 .center-block #block {
-  background-image: url(/center-seafloor.svg);
+  background-image: url(center-seafloor.svg);
   background-size: contain;
   width: 69.1rem;
   height: 10.8rem;
@@ -298,7 +298,7 @@ main {
 }
 
 .right-block {
-  background-image: url(/right-seafloor.svg);
+  background-image: url(right-seafloor.svg);
   background-size: contain;
   width: 2.1rem;
   height: 10.8rem;
@@ -315,7 +315,7 @@ main {
 }
 
 .bottom-pipe-blue {
-  background-image: url(/med-upsidedown.svg);
+  background-image: url(med-upsidedown.svg);
   background-size: contain;
   width: 9.6rem;
   height: 23.4rem;
