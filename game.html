@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:opsz,wght@14..32,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>GAME</title>
+    <link rel="icon" type="game" href="/sm-idle-red.svg" />
+    <link rel="stylesheet" href="game.css" />
+  </head>
+  <body>
+    <audio id="ZVUK">
+      <source src="super-mario-saundtrek.mp3" type="audio/ogg; codecs=vorbis" />
+      <source src="super-mario-saundtrek.mp3" type="audio/mpeg" />
+    </audio>
+    <audio id="JUMP">
+      <source src="jump.mp3" type="audio/ogg; codecs=vorbis" />
+      <source src="jump.mp3" type="audio/mpeg" />
+    </audio>
+    <main>
+      <img id="small-mario" src="small-mario.svg" alt="small-mario" />
+      <div id="bush1" class="bush-large" onclick="a()"></div>
+      <div class="grass-blocks">
+        <img
+          class="coin visible"
+          style="visibility: hidden"
+          src="coin.svg"
+          alt="coin"
+        />
+        <img
+          class="coin visible"
+          style="visibility: hidden"
+          src="coin.svg"
+          alt="coin"
+        />
+        <img
+          class="coin visible mushroom"
+          style="visibility: hidden"
+          src="mushroom.svg"
+          alt="coin"
+        />
+        <img
+          class="coin visible"
+          style="visibility: hidden"
+          src="coin.svg"
+          alt="coin"
+        />
+
+        <img
+          style="width: 4.8rem"
+          class="textured1"
+          src="textured1.svg"
+          alt="textured"
+        />
+        <img
+          style="width: 4.8rem"
+          class="textured1"
+          src="textured1.svg"
+          alt="textured"
+        />
+        <img
+          class="question textured1"
+          style="width: 4.8rem"
+          id="question"
+          src="question1.svg"
+          alt="question"
+        />
+        <img
+          style="width: 4.8rem"
+          class="textured1"
+          src="textured1.svg"
+          alt="textured"
+        />
+      </div>
+      <div class="cloud"></div>
+      <div class="grass-coins">
+        <img
+          style="visibility: hidden; width: 4.8rem"
+          src="textured1.svg"
+          alt="textured"
+        />
+        <img
+          style="visibility: visible"
+          class="coin"
+          src="coin.svg"
+          alt="coin"
+        />
+        <img
+          style="visibility: visible"
+          class="coin"
+          src="coin.svg"
+          alt="coin"
+        />
+        <img style="visibility: hidden" src="textured1.svg" alt="textured" />
+        <img
+          style="visibility: visible"
+          class="coin"
+          src="coin.svg"
+          alt="coin"
+        />
+        <img style="visibility: hidden" src="textured1.svg" alt="textured" />
+        <img style="visibility: hidden" src="textured1.svg" alt="textured" />
+        <img
+          style="visibility: visible"
+          class="coin"
+          src="coin.svg"
+          alt="coin"
+        />
+      </div>
+      <div class="clouds"></div>
+      <div id="bush2" class="bush-small"></div>
+      <div class="tall-medium">
+        <img
+          style="margin-left: 4.8rem; visibility: visible"
+          class="coin"
+          src="coin.svg"
+          alt="coin"
+        />
+        <div class="two-blocks">
+          <img
+            class="coin visible mushroom-green"
+            style="visibility: hidden"
+            src="mushroom-green.svg"
+            alt="coin"
+          />
+          <img
+            class="coin visible star"
+            style="visibility: hidden"
+            src="star.svg"
+            alt="coin"
+          />
+
+          <img
+            style="width: 4.8rem"
+            class="question textured1"
+            src="question1.svg"
+            alt="question"
+          />
+          <img
+            style="width: 4.8rem"
+            class="breakable textured1"
+            src="breakable.svg"
+            alt="breakable"
+          />
+        </div>
+        <img class="hard noShadow" id="tall1" src="tall-md.svg" alt="tall-md" />
+      </div>
+      <div class="square-small">
+        <img
+          class="hard noShadow"
+          id="square1"
+          src="square-small.svg"
+          alt="square-small"
+        />
+      </div>
+      <div class="clouds-air">
+        <div style="margin-left: auto; display: flex; flex-direction: column">
+          <img
+            class="coin visible star"
+            style="visibility: hidden"
+            src="star.svg"
+            alt="coin"
+          />
+          <img
+            style="width: 4.8rem; height: 4.8rem"
+            class="question textured1"
+            src="question1.svg"
+            alt="question"
+          />
+        </div>
+        <div class="clouds-sm hard"></div>
+      </div>
+      <div class="pipe-horizontal hard"></div>
+      <div
+        style="margin-left: 30rem; margin-bottom: 35rem"
+        class="clouds"
+      ></div>
+      <div id="bush3" class="bush-large"></div>
+      <div class="blocks-and-enemies-1">
+        <div class="coins3">
+          <img
+            style="visibility: visible"
+            class="coin"
+            src="coin.svg"
+            alt="coin"
+          />
+          <img
+            style="visibility: visible"
+            class="coin"
+            src="coin.svg"
+            alt="coin"
+          />
+          <img
+            style="visibility: visible"
+            class="coin"
+            src="coin.svg"
+            alt="coin"
+          />
+        </div>
+        <div class="koopa-paratroopa hard noShadow noShadow1">
+          <img
+            class="koopas enemy"
+            style="transform: translate(0, -7.9rem); width: 4.8rem"
+            src="koopa-paratroopa.svg"
+            alt="koopa-paratroopa"
+          />
+        </div>
+        <div class="koopa hard noShadow">
+          <img
+            class="koopas enemy"
+            style="transform: translate(0, -7.6rem); width: 4.8rem"
+            src="koopa.svg"
+            alt="koopa"
+          />
+        </div>
+      </div>
+      <div style="margin-bottom: 75rem; margin-left: 25rem" class="cloud"></div>
+      <div style="margin-bottom: 65rem; margin-left: 7rem" class="cloud"></div>
+      <div class="blocks-and-enemies-2">
+        <div class="coins-and-block">
+          <div class="coins4">
+            <img
+              style="visibility: visible"
+              class="coin"
+              src="coin.svg"
+              alt="coin"
+            />
+            <img
+              style="visibility: visible"
+              class="coin"
+              src="coin.svg"
+              alt="coin"
+            />
+          </div>
+          <img
+            style="height: 43.2rem"
+            src="tall-lg.svg"
+            alt="tall-lg"
+            class="hard noShadow"
+          />
+        </div>
+        <div class="goomba hard noShadow">
+          <img
+            class="goombas enemy"
+            style="
+              transform: translate(0, -4.7rem);
+              margin-left: 5rem;
+              width: 4.8rem;
+            "
+            src="goomba.svg"
+            alt="goomba"
+          />
+        </div>
+        <div class="koopa2 hard noShadow">
+          <img
+            class="koopas enemy"
+            style="transform: translate(0, -7.6rem); width: 4.8rem"
+            src="koopa.svg"
+            alt="koopa"
+          />
+        </div>
+      </div>
+      <div class="bush4"></div>
+      <div class="background"></div>
+      <!-- <div style="height: 100%; background-color: black; width: 100rem"></div> -->
+      <div class="grass">
+        <div class="grass-small hard"></div>
+        <div class="hill-up-1"></div>
+        <div class="grass-middle hard">
+          <img
+            style="width: 4.8rem; transform: translate(0, -4.8rem)"
+            class="goombas enemy"
+            src="goomba.svg"
+            alt="goomba"
+          />
+        </div>
+
+        <div class="pipe">
+          <div>
+            <img
+              class="coin visible star"
+              style="visibility: hidden"
+              src="star.svg"
+              alt="coin"
+            />
+
+            <img
+              style="width: 4.8rem; height: 4.8rem"
+              class="question textured1"
+              src="question1.svg"
+              alt="question1"
+            />
+          </div>
+          <div class="for-pipe">
+            <img
+              class="hard"
+              style="width: 4.8rem"
+              src="textured1.svg"
+              alt="textured"
+            />
+            <img
+              class="hard"
+              style="width: 4.8rem"
+              src="textured1.svg"
+              alt="textured"
+            />
+          </div>
+          <img class="hard" id="pipe1air" src="pipe.svg" alt="pipe" />
+
+          <img class="hard" id="pipe2air" src="pipe.svg" alt="pipe" />
+        </div>
+        <div id="grass1" class="grass-small hard"></div>
+        <div id="grass2" class="grass-small hard"></div>
+        <div class="hill-up-1">
+          <img
+            class="enemy"
+            id="goomba-fly-1"
+            style="width: 4.8rem; transform: translate(0, -12rem)"
+            src="goomba-fly.svg"
+            alt="goomba-fly"
+          />
+        </div>
+        <div id="grass3" class="grass-middle hard">
+          <img
+            class="enemy"
+            id="goomba-fly-2"
+            style="width: 4.8rem; transform: translate(0, -5.6rem)"
+            src="goomba-fly.svg"
+            alt="goomba-fly"
+          />
+        </div>
+        <div class="hill-down-1"></div>
+        <div id="grass4" class="grass-small hard">
+          <img
+            class="koopas enemy"
+            style="transform: translate(0, -7.7rem); width: 4.8rem"
+            src="koopa.svg"
+            alt="koopa"
+          />
+        </div>
+        <div class="hill-up-1"></div>
+        <div class="hill-up-2"></div>
+        <div class="grass-large hard"></div>
+
+        <div class="pipe-middle-and-piranha">
+          <div class="pipe-middle hard"></div>
+          <div class="red-piranha enemy"></div>
+        </div>
+        <div class="water-waves">
+          <div class="above-water">
+            <img
+              class="hard"
+              style="height: 2.4rem; margin-bottom: 10rem"
+              src="spinning-lg.svg"
+              alt="spinning"
+            />
+            <div class="coins1">
+              <div style="margin-left: 18rem">
+                <img
+                  style="visibility: visible"
+                  class="coin"
+                  src="coin.svg"
+                  alt="coin"
+                />
+              </div>
+              <div style="margin-left: 12rem">
+                <img
+                  style="visibility: visible"
+                  class="coin"
+                  src="coin.svg"
+                  alt="coin"
+                />
+              </div>
+              <div style="margin-left: 6rem">
+                <img
+                  style="visibility: visible"
+                  class="coin"
+                  src="coin.svg"
+                  alt="coin"
+                />
+              </div>
+              <div style="margin-left: 0">
+                <img
+                  style="visibility: visible"
+                  class="coin"
+                  src="coin.svg"
+                  alt="coin"
+                />
+              </div>
+            </div>
+            <img
+              class="hard"
+              style="height: 2.4rem; margin-bottom: 27rem"
+              src="spinning-lg.svg"
+              alt="spinning"
+            />
+
+            <div class="coins2">
+              <div style="margin-left: 0">
+                <img
+                  style="visibility: visible"
+                  class="coin"
+                  src="coin.svg"
+                  alt="coin"
+                />
+              </div>
+              <div style="margin-left: 6rem">
+                <img
+                  style="visibility: visible"
+                  class="coin"
+                  src="coin.svg"
+                  alt="coin"
+                />
+              </div>
+              <div style="margin-left: 12rem">
+                <img
+                  style="visibility: visible"
+                  class="coin"
+                  src="coin.svg"
+                  alt="coin"
+                />
+              </div>
+            </div>
+            <img
+              class="hard"
+              style="height: 2.4rem"
+              src="spinning-lg.svg"
+              alt="spinning"
+            />
+          </div>
+          <div class="waves"></div>
+        </div>
+        <div
+          style="margin-left: -0.6rem"
+          id="grass1"
+          class="grass-small hard"
+        ></div>
+        <div class="grass-small hard">
+          <img
+            class="nipper-plant enemy"
+            style="
+              transform: translate(0, -4.8rem);
+              width: 4.8rem;
+              margin-left: 80rem;
+            "
+            src="nipper-plant.svg"
+            alt="nipper-plant"
+          />
+        </div>
+        <div class="hill-up-1"></div>
+        <div style="width: 14.4rem" class="grass-middle hard">
+          <img
+            class="nipper-plant enemy"
+            style="
+              transform: translate(0, -4.8rem);
+              width: 4.8rem;
+              margin-left: 10rem;
+            "
+            src="nipper-plant.svg"
+            alt="nipper-plant"
+          />
+        </div>
+        <div class="hill-up-2"></div>
+        <div style="width: calc(14.4rem * 24)" class="grass-large hard">
+          <img
+            class="nipper-plant enemy"
+            style="
+              transform: translate(0, -4.8rem);
+              width: 4.8rem;
+              margin-left: 10rem;
+            "
+            src="nipper-plant.svg"
+            alt="nipper-plant"
+          />
+        </div>
+      </div>
+    </main>
+    <div class="under">
+      <div class="pipe-vertical-bottom"></div>
+      <div class="pipe-horizontal-bottom"></div>
+      <div id="pipe2" class="pipe-vertical-bottom"></div>
+
+      <div class="water">
+        <div class="water-top">
+          <div id="spikes2" class="spikes"></div>
+          <div class="bottom-pipe-blue"></div>
+        </div>
+        <div class="water-middle">
+          <div class="frame-block">
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="question textured1"
+              src="question1.svg"
+              alt="question"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img style="width: 4.8rem" src="breakable.svg" alt="breakable" />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="visibility: visible"
+              class="coin"
+              src="coin.svg"
+              alt="coin"
+            />
+            <img
+              style="visibility: visible"
+              class="coin"
+              src="coin.svg"
+              alt="coin"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              class="breakable"
+              style="visibility: hidden"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+            <img
+              style="width: 4.8rem"
+              class="breakable"
+              src="breakable.svg"
+              alt="breakable"
+            />
+          </div>
+          <div class="nanny">
+            <img id="nanny1" src="blooper-nanny.svg" alt="nanny" />
+          </div>
+          <div class="coins-bottom">
+            <img
+              style="visibility: visible"
+              class="coin"
+              src="coin.svg"
+              alt="coin"
+            />
+            <img
+              style="visibility: visible"
+              class="coin"
+              src="coin.svg"
+              alt="coin"
+            />
+            <img
+              style="visibility: visible"
+              class="coin"
+              src="coin.svg"
+              alt="coin"
+            />
+          </div>
+          <div class="nanny">
+            <img id="nanny2" src="blooper-nanny.svg" alt="nanny" />
+          </div>
+          <div class="fishes">
+            <img
+              id="fish1"
+              class="fish"
+              src="fish-baby-cheep.svg"
+              alt="fish-baby-cheep"
+            />
+
+            <img
+              id="fish2"
+              class="fish"
+              src="fish-baby-cheep-green.svg"
+              alt="fish-baby-cheep"
+            />
+          </div>
+        </div>
+        <div class="water-bottom">
+          <div class="spikes"></div>
+          <div class="bottom-pipe"></div>
+          <div class="left-block"></div>
+          <div class="center-block">
+            <div class="spiny">
+              <img id="spiny" src="spiny.svg" alt="spiny" />
+            </div>
+            <div id="block" class="hard"></div>
+          </div>
+          <div class="right-block"></div>
+          <div id="spikes1" class="spikes"></div>
+        </div>
+      </div>
+    </div>
+    <div id="lossModal" class="SModalGlass" onclick="modalWindowClick(event)">
+      <canvas id="Canvas1"></canvas>
+      <canvas id="inputOK" onclick="closeModal('#lossModal')"></canvas>
+    </div>
+    <div id="winModal" class="SModalGlass" onclick="modalWindowClick(event)">
+      <canvas id="Canvas2"></canvas>
+
+      <canvas id="inputRes" onclick="closeModal2('#winModal')"> </canvas>
+    </div>
+    <div id="ResultModal" class="SModalGlass" onclick="modalWindowClick(event)">
+      <canvas id="Canvas3"></canvas>
+      <div
+        id="loader"
+        style="
+          display: none;
+          font-family: 'Fira Sans';
+          font-size: 4.8rem;
+          position: fixed;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          font-weight: 500;
+        "
+      >
+        loading...
+      </div>
+      <a href="/menu.html">
+        <canvas id="inputMenu" onclick="closeModal('#ResultModal')"></canvas
+      ></a>
+    </div>
+    <script src="https://fe.it-academy.by/JQ/jquery.js"></script>
+    <script src="https://zeptojs.com/zepto.js"></script>
+    <script src="zepto.js"></script>
+    <script src="game.js"></script>
+    <script src="mario.js"></script>
+    <script src="canvas.js"></script>
+  </body>
+</html>

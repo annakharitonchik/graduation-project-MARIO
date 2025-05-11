@@ -1,0 +1,42 @@
+<svg width="86" height="32" viewBox="0 0 86 32" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated">
+<g clip-path="url(#clip0_0_2753)">
+<rect x="70" y="1" width="30" height="400" transform="rotate(90 70 1)" fill="black"/>
+<rect x="70" y="2" width="28" height="400" transform="rotate(90 70 2)" fill="#41D83D"/>
+<path d="M70 19V30L-330 30V19L70 19Z" fill="#009F00"/>
+<path d="M70 12V18L-330 18V12L70 12Z" fill="#009F00"/>
+<path d="M70 9V11L-330 11V9L70 9Z" fill="#009F00"/>
+<path d="M70 2V4L-330 4V2L70 2Z" fill="#009F00"/>
+<path d="M70 5V6L-330 6V5L70 5Z" fill="#009F00"/>
+<path d="M70 29V30L-330 30V29L70 29Z" fill="black"/>
+<path d="M70 22V23L-330 23V22L70 22Z" fill="black"/>
+<path d="M70 20V21L-330 21V20L70 20Z" fill="black"/>
+<path d="M70 24V28L-330 28V24L70 24Z" fill="black"/>
+</g>
+<rect x="86" width="32" height="16" transform="rotate(90 86 0)" fill="black"/>
+<rect x="85" y="1" width="30" height="13" transform="rotate(90 85 1)" fill="#41D83D"/>
+<path d="M84 20V31H72V20H84Z" fill="#009F00"/>
+<path d="M84 11V19H72V11H84Z" fill="#009F00"/>
+<path d="M84 8V10H72V8H84Z" fill="#009F00"/>
+<path d="M84 1V3L72 3V1L84 1Z" fill="#009F00"/>
+<path d="M84 4V5L72 5V4L84 4Z" fill="#009F00"/>
+<path d="M84 30V31H72V30H84Z" fill="black"/>
+<path d="M84 23V24H72V23H84Z" fill="black"/>
+<path d="M84 21V22H72V21H84Z" fill="black"/>
+<path d="M84 25V29H72V25H84Z" fill="black"/>
+<rect width="32" height="16" transform="matrix(0 1 1 0 0 0)" fill="black"/>
+<rect width="30" height="13" transform="matrix(0 1 1 0 1 1)" fill="#41D83D"/>
+<path d="M2 20L2 31H14V20H2Z" fill="#009F00"/>
+<path d="M2 11L2 19H14L14 11H2Z" fill="#009F00"/>
+<path d="M2 8V10H14V8H2Z" fill="#009F00"/>
+<path d="M2 1L2 3L14 3V1L2 1Z" fill="#009F00"/>
+<path d="M2 4V5L14 5V4L2 4Z" fill="#009F00"/>
+<path d="M2 30L2 31H14V30H2Z" fill="black"/>
+<path d="M2 23V24H14V23H2Z" fill="black"/>
+<path d="M2 21V22H14V21H2Z" fill="black"/>
+<path d="M2 25L2 29H14V25H2Z" fill="black"/>
+<defs>
+<clipPath id="clip0_0_2753">
+<rect width="30" height="54" fill="white" transform="matrix(0 1 -1 0 70 1)"/>
+</clipPath>
+</defs>
+</svg>

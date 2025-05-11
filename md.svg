@@ -1,0 +1,41 @@
+<svg width="88" height="48" viewBox="0 0 88 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="78" height="46" fill="#FCB5A8"/>
+<path d="M78 2H79V3H78V2Z" fill="#FC8E2E"/>
+<path d="M76 1H78V3H76V1Z" fill="#FC8E2E"/>
+<rect x="76" y="3" width="3" height="43" fill="#FC8E2E"/>
+<rect x="2" y="46" width="76" height="1" fill="#FC8E2E"/>
+<rect x="1" y="45" width="1" height="1" fill="#FC8E2E"/>
+<path d="M79 10H88V46H79V10Z" fill="black"/>
+<path d="M79 8H87V9H79V8Z" fill="black"/>
+<path d="M79 9H88V10H79V9Z" fill="black"/>
+<path d="M79 46H88V47H79V46Z" fill="black"/>
+<path d="M80 47H88V48H80V47Z" fill="black"/>
+<rect y="2" width="1" height="44" fill="black"/>
+<rect x="79" y="2" width="1" height="44" fill="black"/>
+<rect x="2" width="76" height="1" fill="black"/>
+<rect x="2" y="47" width="76" height="1" fill="black"/>
+<path d="M79 0V2H78V0L79 0Z" fill="black"/>
+<path d="M80 1V2H78V1L80 1Z" fill="black"/>
+<path d="M79 48V46H78V48H79Z" fill="black"/>
+<path d="M80 47V46H78V47H80Z" fill="black"/>
+<path d="M0 1H2V2H0V1Z" fill="black"/>
+<path d="M1 0H2V2H1V0Z" fill="black"/>
+<path d="M1 48L1 46H2V48H1Z" fill="black"/>
+<path d="M0 47L0 46H2V47H0Z" fill="black"/>
+<path d="M7 2H3V3H2V7H3V8H7V7H8V3H7V2Z" fill="black"/>
+<path d="M6 3H4V4H3V6H4V7H6V6H7V4H6V3Z" fill="#93FCEE"/>
+<rect x="4" y="5" width="1" height="1" fill="black"/>
+<rect x="5" y="4" width="1" height="1" fill="black"/>
+<path d="M77 2H73V3H72V7H73V8H77V7H78V3H77V2Z" fill="black"/>
+<path d="M76 3H74V4H73V6H74V7H76V6H77V4H76V3Z" fill="#93FCEE"/>
+<rect x="74" y="5" width="1" height="1" fill="black"/>
+<rect x="75" y="4" width="1" height="1" fill="black"/>
+<path d="M77 40H73V41H72V45H73V46H77V45H78V41H77V40Z" fill="black"/>
+<path d="M76 41H74V42H73V44H74V45H76V44H77V42H76V41Z" fill="#93FCEE"/>
+<rect x="74" y="43" width="1" height="1" fill="black"/>
+<rect x="75" y="42" width="1" height="1" fill="black"/>
+<path d="M7 40H3V41H2V45H3V46H7V45H8V41H7V40Z" fill="black"/>
+<path d="M6 41H4V42H3V44H4V45H6V44H7V42H6V41Z" fill="#93FCEE"/>
+<rect x="4" y="43" width="1" height="1" fill="black"/>
+<rect x="5" y="42" width="1" height="1" fill="black"/>
+</svg>

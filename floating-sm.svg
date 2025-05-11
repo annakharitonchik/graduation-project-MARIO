@@ -1,0 +1,42 @@
+<svg width="88" height="40" viewBox="0 0 88 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated">
+<rect x="0.810127" y="1" width="78" height="29" fill="#9FE1FC"/>
+<path d="M77.8101 2H78.8101V3H77.8101V2Z" fill="#32B5FC"/>
+<path d="M75.8101 1H77.8101V3H75.8101V1Z" fill="#32B5FC"/>
+<rect x="75.8101" y="3" width="3" height="26" fill="#32B5FC"/>
+<rect x="1.81013" y="29" width="76" height="1" fill="#32B5FC"/>
+<rect x="0.810127" y="28" width="1" height="1" fill="#32B5FC"/>
+<rect x="8" y="31" width="1" height="8" fill="black"/>
+<rect x="87" y="31" width="1" height="8" fill="black"/>
+<rect x="9" y="31" width="78" height="9" fill="black"/>
+<path d="M78 10H88V31H78V10Z" fill="black"/>
+<path d="M79 8H87V9H79V8Z" fill="black"/>
+<path d="M79 9H88V10H79V9Z" fill="black"/>
+<rect y="2" width="1" height="27" fill="black"/>
+<rect x="78" y="2" width="1" height="27" fill="black"/>
+<rect x="2" width="75" height="1" fill="black"/>
+<rect x="2" y="30" width="75" height="1" fill="black"/>
+<path d="M78 0V2H77V0L78 0Z" fill="black"/>
+<path d="M79 1V2H77V1L79 1Z" fill="black"/>
+<path d="M78 31V29H77V31H78Z" fill="black"/>
+<path d="M79 30V29H77V30H79Z" fill="black"/>
+<path d="M0 1H2V2H0V1Z" fill="black"/>
+<path d="M1 0H2V2H1V0Z" fill="black"/>
+<path d="M1 31L1 29H2V31H1Z" fill="black"/>
+<path d="M0 30L0 29H2V30H0Z" fill="black"/>
+<path d="M6.62025 2H2.62025V3H1.62025V7H2.62025V8H6.62025V7H7.62025V3H6.62025V2Z" fill="black"/>
+<path d="M5.62025 3H3.62025V4H2.62025V6H3.62025V7H5.62025V6H6.62025V4H5.62025V3Z" fill="#93FCEE"/>
+<rect x="3.62025" y="5" width="1" height="1" fill="black"/>
+<rect x="4.62025" y="4" width="1" height="1" fill="black"/>
+<path d="M76.6203 2H72.6203V3H71.6203V7H72.6203V8H76.6203V7H77.6203V3H76.6203V2Z" fill="black"/>
+<path d="M75.6203 3H73.6203V4H72.6203V6H73.6203V7H75.6203V6H76.6203V4H75.6203V3Z" fill="#93FCEE"/>
+<rect x="73.6203" y="5" width="1" height="1" fill="black"/>
+<rect x="74.6203" y="4" width="1" height="1" fill="black"/>
+<path d="M76.6203 23H72.6203V24H71.6203V28H72.6203V29H76.6203V28H77.6203V24H76.6203V23Z" fill="black"/>
+<path d="M75.6203 24H73.6203V25H72.6203V27H73.6203V28H75.6203V27H76.6203V25H75.6203V24Z" fill="#93FCEE"/>
+<rect x="73.6203" y="26" width="1" height="1" fill="black"/>
+<rect x="74.6203" y="25" width="1" height="1" fill="black"/>
+<path d="M6.62025 23H2.62025V24H1.62025V28H2.62025V29H6.62025V28H7.62025V24H6.62025V23Z" fill="black"/>
+<path d="M5.62025 24H3.62025V25H2.62025V27H3.62025V28H5.62025V27H6.62025V25H5.62025V24Z" fill="#93FCEE"/>
+<rect x="3.62025" y="26" width="1" height="1" fill="black"/>
+<rect x="4.62025" y="25" width="1" height="1" fill="black"/>
+</svg>

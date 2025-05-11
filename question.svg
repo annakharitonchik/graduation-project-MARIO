@@ -1,0 +1,13 @@
+<svg width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated">
+<rect width="54" height="54" fill="black"/>
+<rect x="3.375" y="3.375" width="47.25" height="47.2499" fill="#FCB5A8"/>
+<rect x="6.52502" y="6.52502" width="44.1" height="44.0999" fill="#FC8E2E"/>
+<path d="M6.75 6.75H10.125V10.125H6.75V6.75Z" fill="black"/>
+<path d="M43.875 6.75H47.25V10.125H43.875V6.75Z" fill="black"/>
+<path d="M43.875 43.875H47.25V47.25H43.875V43.875Z" fill="black"/>
+<path d="M6.75 43.875H10.125V47.25H6.75V43.875Z" fill="black"/>
+<path d="M40.5 13.5H16.875V16.875H13.5V23.625H23.625V20.25H33.75V27H23.625V33.75H33.75V30.375H40.5V27H43.875V16.875H40.5V13.5Z" fill="black"/>
+<path d="M23.625 37.125H33.75V43.875H23.625V37.125Z" fill="black"/>
+<path d="M37.125 10.125H13.5V13.5H10.125V20.25H20.25V16.875H30.375V23.625H20.25V30.375H30.375V27H37.125V23.625H40.5V13.5H37.125V10.125Z" fill="#FCB5A8"/>
+<path d="M20.25 33.75H30.375V40.5H20.25V33.75Z" fill="#FCB5A8"/>
+</svg>

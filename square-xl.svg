@@ -1,0 +1,41 @@
+<svg width="120" height="96" viewBox="0 0 120 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="1" width="110" height="94" fill="#9FE1FC"/>
+<path d="M110 2H111V3H110V2Z" fill="#32B5FC"/>
+<path d="M108 1H110V3H108V1Z" fill="#32B5FC"/>
+<rect x="108" y="3" width="3" height="91" fill="#32B5FC"/>
+<rect x="2" y="94" width="108" height="1" fill="#32B5FC"/>
+<rect x="1" y="93" width="1" height="1" fill="#32B5FC"/>
+<path d="M111 10H120V94H111V10Z" fill="black"/>
+<path d="M111 8H119V9H111V8Z" fill="black"/>
+<path d="M111 9H120V10H111V9Z" fill="black"/>
+<path d="M111 94H120V95H111V94Z" fill="black"/>
+<path d="M112 95H120V96H112V95Z" fill="black"/>
+<rect y="2" width="1" height="92" fill="black"/>
+<rect x="111" y="2" width="1" height="92" fill="black"/>
+<rect x="2" width="108" height="1" fill="black"/>
+<rect x="2" y="95" width="108" height="1" fill="black"/>
+<path d="M111 0V2H110V0L111 0Z" fill="black"/>
+<path d="M112 1V2H110V1L112 1Z" fill="black"/>
+<path d="M111 96V94H110V96H111Z" fill="black"/>
+<path d="M112 95V94H110V95H112Z" fill="black"/>
+<path d="M0 1H2V2H0V1Z" fill="black"/>
+<path d="M1 0H2V2H1V0Z" fill="black"/>
+<path d="M1 96L1 94H2V96H1Z" fill="black"/>
+<path d="M0 95L0 94H2V95H0Z" fill="black"/>
+<path d="M7 2H3V3H2V7H3V8H7V7H8V3H7V2Z" fill="black"/>
+<path d="M6 3H4V4H3V6H4V7H6V6H7V4H6V3Z" fill="#93FCEE"/>
+<rect x="4" y="5" width="1" height="1" fill="black"/>
+<rect x="5" y="4" width="1" height="1" fill="black"/>
+<path d="M109 2H105V3H104V7H105V8H109V7H110V3H109V2Z" fill="black"/>
+<path d="M108 3H106V4H105V6H106V7H108V6H109V4H108V3Z" fill="#93FCEE"/>
+<rect x="106" y="5" width="1" height="1" fill="black"/>
+<rect x="107" y="4" width="1" height="1" fill="black"/>
+<path d="M109 88H105V89H104V93H105V94H109V93H110V89H109V88Z" fill="black"/>
+<path d="M108 89H106V90H105V92H106V93H108V92H109V90H108V89Z" fill="#93FCEE"/>
+<rect x="106" y="91" width="1" height="1" fill="black"/>
+<rect x="107" y="90" width="1" height="1" fill="black"/>
+<path d="M7 88H3V89H2V93H3V94H7V93H8V89H7V88Z" fill="black"/>
+<path d="M6 89H4V90H3V92H4V93H6V92H7V90H6V89Z" fill="#93FCEE"/>
+<rect x="4" y="91" width="1" height="1" fill="black"/>
+<rect x="5" y="90" width="1" height="1" fill="black"/>
+</svg>

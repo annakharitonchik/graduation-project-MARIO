@@ -1,0 +1,20 @@
+<svg width="32" height="30" viewBox="0 0 32 30" fill="none" xmlns="http://www.w3.org/2000/svg" style="image-rendering: pixelated">
+<g opacity="0.5" clip-path="url(#clip0_0_472)">
+<rect x="32" width="30" height="400" transform="rotate(90 32 0)" fill="black"/>
+<rect x="32" y="1" width="28" height="400" transform="rotate(90 32 1)" fill="#41D83D"/>
+<path d="M32 18V29L-368 29V18L32 18Z" fill="#009F00"/>
+<path d="M32 11V17L-368 17V11L32 11Z" fill="#009F00"/>
+<path d="M32 8V10L-368 10V8L32 8Z" fill="#009F00"/>
+<path d="M32 1V3L-368 3V1L32 1Z" fill="#009F00"/>
+<path d="M32 4V5L-368 5V4L32 4Z" fill="#009F00"/>
+<path d="M32 28V29L-368 29V28L32 28Z" fill="black"/>
+<path d="M32 21V22L-368 22V21L32 21Z" fill="black"/>
+<path d="M32 19V20L-368 20V19L32 19Z" fill="black"/>
+<path d="M32 23V27L-368 27V23L32 23Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_0_472">
+<rect width="30" height="32" fill="white" transform="matrix(0 1 -1 0 32 0)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,700 @@
+* {
+  cursor: url(pointer.svg), default;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+html {
+  margin: 0 auto;
+  padding: 0;
+  height: 100dvh;
+  width: 3000dvw;
+  background-color: #000000;
+  touch-action: none;
+  overflow: hidden;
+}
+
+main {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #9cfcf0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.grass {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.grass-small {
+  background-image: url(/small-grass.svg);
+  background-size: contain;
+  width: 86.4rem;
+  height: 8.7rem;
+}
+
+.hill-up-1 {
+  background-image: url(/grass-hill-up-1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15.3rem;
+  height: 16.5rem;
+}
+
+.grass-middle {
+  background-image: url(/middle-grass.svg);
+  background-size: contain;
+  width: 86.4rem;
+  height: 16.8rem;
+}
+
+.hill-down-1 {
+  background-image: url(/grass-hill-down-1.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15.3rem;
+  height: 16.5rem;
+}
+
+.bush-large {
+  background-image: url(/large-bush.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 8rem;
+  width: 29.1rem;
+  height: 39rem;
+}
+
+#bush1 {
+  margin-left: 6rem;
+}
+
+.bush-small {
+  background-image: url(/small-bush.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 16.8rem;
+  width: 18.9rem;
+  height: 14.4rem;
+}
+
+#bush2 {
+  margin-left: 1rem;
+}
+
+.tall-medium {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+  justify-content: space-between;
+  margin-bottom: 16.8rem;
+  width: 16.8rem;
+  height: 58.5rem;
+  margin-left: 7rem;
+}
+
+.two-blocks {
+  display: grid;
+  grid-template-columns: repeat(2, 4.8rem);
+  margin-bottom: 3.5rem;
+}
+
+#tall1 {
+  width: 100%;
+}
+
+.square-small {
+  z-index: 100;
+  margin-bottom: 16.6rem;
+  width: 17.1rem;
+  height: 14.4rem;
+  transform: translate(-5.5rem, 0);
+}
+
+#square1 {
+  width: 100%;
+  height: 100%;
+}
+
+#grass1 {
+  background-image: url(/grass-edge.svg);
+  background-repeat: no-repeat;
+  margin-left: 5rem;
+  width: 5.4rem;
+}
+
+#grass2 {
+  width: 14.4rem;
+}
+
+#grass3 {
+  width: 43.2rem;
+}
+
+#grass4 {
+  width: 28.8rem;
+}
+
+.hill-up-2 {
+  background-image: url(/grass-hill-up-2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15.3rem;
+  height: 24.6rem;
+}
+
+.grass-large {
+  background-image: url(/grass-lg.svg);
+  background-size: contain;
+  width: 86.4rem;
+  height: 24.6rem;
+  z-index: 10;
+}
+
+.hill-down-2 {
+  background-image: url(/grass-hill-down-2.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 15.3rem;
+  height: 24.6rem;
+}
+
+.pipe-middle-and-piranha {
+  transform: translate(-0.3rem, 0);
+  width: 9.6rem;
+  height: 53.4rem;
+  display: none;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.pipe-middle-and-piranha .pipe-middle {
+  background-image: url(pipe-middle.svg);
+  background-size: contain;
+  width: 9.6rem;
+  height: 46.8rem;
+}
+.pipe-middle-and-piranha .red-piranha {
+  background-image: url(red-piranha-plant.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 9.6rem;
+  height: 6.9rem;
+  background-position-x: center;
+}
+
+.pipe-horizontal {
+  background-image: url(/horizontal-double.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 25.8rem;
+  height: 9.6rem;
+  margin-bottom: 16.5rem;
+  margin-left: -79rem;
+}
+
+#bush3 {
+  margin-left: 7rem;
+}
+
+.under {
+  position: relative;
+  height: 50%;
+  width: 100%;
+  background-color: #e5e5e5;
+  display: none;
+  align-items: flex-end;
+}
+
+.pipe-vertical-bottom {
+  background-image: url(/bottom.svg);
+  background-size: contain;
+  width: 9rem;
+  height: 100%;
+  margin-left: 188.05rem;
+}
+
+#pipe2 {
+  margin-left: 0;
+}
+
+.pipe-horizontal-bottom {
+  background-image: url(/bottom-1.svg);
+  background-size: contain;
+  width: 117.3rem;
+  height: 9.6rem;
+}
+
+.water {
+  width: 154.9rem;
+  height: calc(100% - 10.5rem);
+  transform: translate(-70rem, -10.5rem);
+  background-color: #192eea;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url(/seaweed.svg);
+  background-repeat: no-repeat;
+  background-size: 4.8rem, 24rem;
+  background-position: bottom 10.6rem left 85rem;
+}
+
+.water-bottom {
+  display: flex;
+  align-items: flex-end;
+}
+
+.spikes {
+  background-image: url(/spike-single.svg);
+  background-size: contain;
+  background-repeat: repeat-x;
+  width: 60.7rem;
+  height: 5rem;
+}
+
+.bottom-pipe {
+  background-image: url(/bottom-pipe.svg);
+  background-size: contain;
+  width: 9.6rem;
+  height: 14.4rem;
+}
+
+.left-block {
+  background-image: url(/left-seafloor.svg);
+  background-size: contain;
+  width: 2.1rem;
+  height: 10.8rem;
+  transform: translate(0.1rem, 0);
+}
+
+.center-block {
+  display: flex;
+  flex-direction: column;
+}
+.center-block #block {
+  background-image: url(/center-seafloor.svg);
+  background-size: contain;
+  width: 69.1rem;
+  height: 10.8rem;
+  background-repeat: repeat-x;
+}
+.center-block .spiny {
+  width: 100%;
+  height: 4.5rem;
+  transform: translate(0rem, 0.15rem);
+}
+.center-block .spiny #spiny {
+  width: 4.5rem;
+  height: 4.8rem;
+}
+
+.right-block {
+  background-image: url(/right-seafloor.svg);
+  background-size: contain;
+  width: 2.1rem;
+  height: 10.8rem;
+  transform: translate(-0.1rem, 0);
+}
+
+#spikes1 {
+  width: 10.9rem;
+}
+
+#spikes2 {
+  width: 145.2rem;
+  rotate: 180deg;
+}
+
+.bottom-pipe-blue {
+  background-image: url(/med-upsidedown.svg);
+  background-size: contain;
+  width: 9.6rem;
+  height: 23.4rem;
+  background-repeat: no-repeat;
+}
+
+.water-top {
+  display: flex;
+}
+
+.water-middle {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.water-middle .nanny {
+  width: 13.2rem;
+  height: 100%;
+  margin-left: 3rem;
+}
+.water-middle .nanny #nanny1,
+.water-middle .nanny #nanny2 {
+  width: 13.2rem;
+  height: 4.8rem;
+}
+.water-middle .coins-bottom {
+  width: 4.2rem;
+  height: 30rem;
+  margin-left: 9.5rem;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  gap: 4rem;
+}
+.water-middle .coins-bottom img {
+  width: 4.2rem;
+  height: 4.8rem;
+}
+.water-middle .fishes {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  flex-direction: column;
+  margin-left: 15rem;
+  margin-bottom: 5rem;
+}
+.water-middle .fish {
+  width: 4.8rem;
+  height: 4.8rem;
+}
+.water-middle .frame-block {
+  display: grid;
+  grid-template-columns: repeat(6, 4.8rem);
+  grid-template-rows: repeat(4, 4.8rem);
+  margin-left: 9rem;
+  transform: translate(0, -10rem);
+}
+
+.grass-blocks {
+  display: grid;
+  grid-template-columns: repeat(4, 4.8rem);
+  margin-bottom: 27.9rem;
+  margin-left: 2rem;
+  z-index: 100;
+}
+
+.coin {
+  z-index: 105;
+  margin: 0 auto;
+  width: 4.8rem;
+  height: 4.8rem;
+}
+
+.grass-coins {
+  display: grid;
+  grid-template-columns: repeat(4, 6rem);
+  grid-template-rows: repeat(2, 5rem);
+  margin-bottom: 27.9rem;
+  margin-left: 2.8rem;
+  align-items: center;
+  z-index: 100;
+}
+
+.cloud {
+  background-image: url(cloud-sm.svg);
+  width: 9.6rem;
+  height: 6.9rem;
+  background-size: contain;
+  margin-bottom: 50rem;
+  background-repeat: no-repeat;
+}
+
+.clouds {
+  background-image: url(cloud-lg.svg);
+  width: 14.4rem;
+  height: 6.9rem;
+  background-size: contain;
+  margin-bottom: 45rem;
+  background-repeat: no-repeat;
+}
+
+.pipe {
+  display: grid;
+  grid-template-rows: auto 4.8rem auto 23.4rem;
+  height: 84.8rem;
+  width: 9.6rem;
+  transform: translate(-0.3rem, 0);
+}
+.pipe #pipe1air {
+  rotate: 180deg;
+  width: 9.6rem;
+}
+.pipe #pipe2air {
+  width: 9.6rem;
+}
+.pipe .for-pipe {
+  display: grid;
+  grid-template-columns: repeat(2, 4.8rem);
+}
+
+.clouds-air {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 105.6rem;
+  height: 26.5rem;
+  margin-bottom: 58.5rem;
+  margin-left: 50rem;
+}
+.clouds-air .clouds-sm {
+  background-image: url(cloud.svg);
+  width: 100%;
+  height: 4.8rem;
+  background-size: 4.8rem, 4.8rem;
+  background-repeat: repeat-x;
+}
+
+.water-waves {
+  width: 114.9rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  transform: translate(-0.6rem, 0);
+  justify-content: space-between;
+}
+.water-waves .waves {
+  background-image: url(waves.svg);
+  width: 100%;
+  height: 9rem;
+  background-size: contain;
+}
+.water-waves .above-water {
+  display: flex;
+  justify-content: space-around;
+  height: 30rem;
+  align-items: end;
+  width: 100rem;
+  align-self: center;
+}
+.water-waves .above-water .coins1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 18rem;
+  justify-content: start;
+}
+.water-waves .above-water .coins2 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 12rem;
+  margin-left: 4.1rem;
+}
+
+.blocks-and-enemies-1 {
+  width: 40rem;
+  height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 240rem;
+  margin-bottom: 8.7rem;
+}
+.blocks-and-enemies-1 .koopa-paratroopa {
+  background-image: url(floating-sm.svg);
+  width: 26.4rem;
+  height: 12rem;
+  background-size: contain;
+  align-self: end;
+}
+.blocks-and-enemies-1 .koopa {
+  background-image: url(xs.svg);
+  width: 21.6rem;
+  height: 9.6rem;
+  background-size: contain;
+}
+.blocks-and-enemies-1 .coins3 {
+  display: flex;
+  width: 20rem;
+  align-self: end;
+  margin-right: 2.8rem;
+}
+
+.blocks-and-enemies-2 {
+  margin-left: 40rem;
+  margin-bottom: 24.5rem;
+  display: flex;
+  align-items: end;
+}
+
+.coins-and-block {
+  display: flex;
+  flex-direction: column;
+  width: 16.8rem;
+  gap: 6rem;
+  justify-content: center;
+}
+
+.coins4 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  margin-right: 2.8rem;
+}
+
+.goomba {
+  z-index: 200;
+  background-image: url(md.svg);
+  width: 26.4rem;
+  height: 14.4rem;
+  background-size: contain;
+  transform: translate(-5rem, 0);
+}
+
+.koopa2 {
+  background-image: url(square-xl.svg);
+  width: 36rem;
+  height: 28.8rem;
+  background-size: contain;
+  transform: translate(-18rem, 0);
+}
+
+.bush4 {
+  background-image: url(xl-plain.svg);
+  width: 42.9rem;
+  height: 38.4rem;
+  margin-bottom: 24.4rem;
+  background-size: contain;
+}
+
+#small-mario {
+  width: 3.6rem;
+  height: 4.5rem;
+  position: absolute;
+  z-index: 1000;
+}
+
+.background {
+  margin-left: 8rem;
+  height: 100%;
+  width: 100rem;
+  margin-bottom: 24.4rem;
+}
+
+.SModalGlass {
+  z-index: 200;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+canvas {
+  width: 40%;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#inputOK {
+  width: 10%;
+  position: fixed;
+  left: 50%;
+  top: 65%;
+  transform: translate(-50%, -50%);
+}
+
+#inputRes {
+  width: 10%;
+  position: fixed;
+  left: 50%;
+  top: 63%;
+  transform: translate(-50%, -50%);
+}
+
+#inputMenu {
+  width: 8%;
+  top: 74%;
+}
+
+@media (max-width: 1100px) {
+  #inputOK {
+    top: 56%;
+  }
+  #inputRes {
+    top: 56%;
+  }
+  #inputMenu {
+    top: 59%;
+    width: 9%;
+  }
+}
+@media (max-height: 1050px) {
+  #inputOK {
+    top: 60%;
+  }
+  #inputRes {
+    top: 60%;
+  }
+  #inputMenu {
+    top: 73%;
+    width: 8%;
+  }
+}
+@media (max-height: 900px) {
+  html {
+    font-size: 8.78px;
+  }
+  #inputOK {
+    top: 67%;
+  }
+  #inputRes {
+    top: 67%;
+  }
+  #inputMenu {
+    top: 77%;
+    width: 9%;
+  }
+}
+@media (max-height: 450px) {
+  html {
+    font-size: 4.24px;
+  }
+  canvas {
+    width: 50%;
+  }
+  #inputOK {
+    top: 70%;
+    width: 10%;
+  }
+  #inputRes {
+    top: 70%;
+    width: 10%;
+  }
+  #inputMenu {
+    top: 81%;
+    width: 10%;
+  }
+}
+@media (max-width: 600px) {
+  canvas {
+    width: 80%;
+  }
+  #inputOK {
+    top: 57%;
+    width: 20%;
+  }
+  #inputRes {
+    top: 57%;
+    width: 20%;
+  }
+  #inputMenu {
+    top: 62%;
+    width: 15%;
+  }
+}
+
+/*# sourceMappingURL=game.css.map */
